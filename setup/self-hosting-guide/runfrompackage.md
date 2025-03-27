@@ -30,13 +30,13 @@ If you used our **ARM template** from the [Installation](install.md) page, your 
 {% endstep %}
 
 {% step %}
-Go to **Configuration** (or **Settings → Application Settings**, depending on portal version).
+Go to **Configuration** (or **Settings → Environment variables**, depending on portal version).
 {% endstep %}
 
 {% step %}
-Look for an **Application Setting** named `WEBSITE_RUN_FROM_PACKAGE`.
+Look for an **Application Setting/App Setting** named `WEBSITE_RUN_FROM_PACKAGE`.
 
-* It should be set to `1`.
+* It should be set to `1`. You may need to click the Show value text to present the value.
 * If it is, great—your Function App is already running from a package zip.
 {% endstep %}
 {% endstepper %}
